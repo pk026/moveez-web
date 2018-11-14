@@ -34,7 +34,7 @@ export const AppRoutes: Routes = [
     RouterModule.forRoot(AppRoutes),
     HttpClientModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyCIhmkrUD-357N6FrwsO-DEU6lGk7J043c',
+      apiKey: '',
       libraries: ['places']
     }),
     NgbModule,
