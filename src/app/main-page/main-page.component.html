@@ -1,0 +1,9 @@
+<div>
+  <app-google-place-autocomplete (locationDetail)="getLocation($event)"></app-google-place-autocomplete>
+</div>
+
+<div *ngIf="showCompanies">
+  <mat-list role="list" *ngFor="let item of company;let i=index;">
+    <mat-list-item role="listitem" (click)="onSelectCompany(i)">{{item.name}}</mat-list-item>
+  </mat-list>
+</div>

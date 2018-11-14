@@ -1,0 +1,9 @@
+<p>
+  Your slot is booked.
+  <br>
+  On Date {{(slot ? slot.date : '' ) | date: 'MMM d, y'}}
+  <br>  
+  At Time {{(slot ? slot.date + ' ' + slot.time : '' ) | date: 'shortTime'}}
+  <br>
+  Thank You
+</p>
